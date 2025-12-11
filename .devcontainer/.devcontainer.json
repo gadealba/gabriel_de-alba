@@ -1,0 +1,12 @@
+{
+  "name": "Universal Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "features": {
+    "common-utils": "latest",
+    "git": "latest"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "vscode"
+}
